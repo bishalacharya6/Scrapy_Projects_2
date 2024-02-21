@@ -96,7 +96,7 @@ FEED_EXPORT_ENCODING = "utf-8"
 
 from shutil import which 
 SELENIUM_DRIVER_NAME = 'chrome' 
-SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver') 
+SELENIUM_DRIVER_EXECUTABLE_PATH = which('https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.57/win32/chromedriver-win32.zip') 
 SELENIUM_DRIVER_ARGUMENTS=[]
 DOWNLOADER_MIDDLEWARES = { 
 'scrapy_selenium.SeleniumMiddleware': 800 
